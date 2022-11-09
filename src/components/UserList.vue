@@ -71,4 +71,11 @@ th tr {
 tbody tr {
   border-bottom: 1px solid #dddddd;
 }
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
 </style>
